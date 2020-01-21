@@ -3,34 +3,12 @@ $navbar-default-bg: #073B15;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
-$color-primary-0: #4ABDAC;
-$color-primary-1: #EEAA7B;
-$color-primary-2: #F7B733;
-$color-primary-3: #DFDCE3;
-$color-font-default: #666;
-$color-font-hover: #222;
-
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: $color-font-default;  
-  background-color: $color-primary-0;
-  height: 100%;
-}
-
-.navigation-default {
-    background-color: $color-primary-2;
-    border-color: $color-primary-2;
-}
-
 .center {
   text-align: center;
 }
 
 .jumbotron {
-  background-image: url('https://s3.amazonaws.com/myrecipes/assets/3.jpg');
+  background-image: url('');
   background-size: cover;
   height: 300px;
 }
@@ -49,15 +27,7 @@ body {
   text-decoration: none;
 }  
 
-.jumbotron h1 {
-  color: #fff;
-  text-align: center;
-  margin-bottom: 30px;
-  letter-spacing: -1px;
-  font-weight: bold;
-}
-
-.jumbotron h2 {
+.jumbotron h1, h2 {
   color: #fff;
   text-align: center;
   margin-bottom: 30px;
