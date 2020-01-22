@@ -5,10 +5,10 @@ class PagesTest < ActionDispatch::IntegrationTest
 		get pages_home_url
 		assert_response :success
 	end
-=begin
+#=begin
 	test "should get root" do
 	get root_url
 	assert_response :success
 	end
-=end	
+#=end	
 end

@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class ChefTest < ActiveSupport::TestCase
-  
+=begin  
   def setup
     @chef = Chef.new(chefname: "mashrur", email: "mashrur@example.com")
   end
@@ -45,7 +45,7 @@ class ChefTest < ActiveSupport::TestCase
       assert_not @chef.valid?, "#{invalids.inspect} should be invalid"
     end
   end 
-=begin  
+  
   test "email should be unique and case insensitive" do
     duplicate_chef = @chef.dup
     duplicate_chef.email = @chef.email.upcase
